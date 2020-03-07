@@ -4,16 +4,11 @@ O sistema Arquimedes é uma ferramenta para a resolução de problemas de progra
 
 A entrada de dados no programa se da por meio de arquivos de texto (.txt) que podem ser carregados na tela principal. Nesta mesma tela é possível criar um novo problema sem a utilização de um arquivo de texto existente. Para evitar erros de leitura, os arquivos devem seguir o seguinte padrão:
 
-
-
-
+![Estrutura do arquivo](https://github.com/caioqazz/Arquimedes/blob/master/imgs/img1.png?raw=true)
 
 Exemplo:
 
-
-
-
-
+![Estrutura do arquivo](https://github.com/caioqazz/Arquimedes/blob/master/imgs/img2.png?raw=true)
 
 Deve-se sempre indicar o tipo da função objetivo (Max/Min). Um numero de restrições maior do que o informado faz com que algumas sejam ignoradas, um valor menor causa erro de leitura. O programa sempre considera o numero de variáveis informado como verdadeiro, mesmo se um numero menor aparecer no problema. Um numero de variáveis maior do que o informado causará problemas de execução e, consequentemente, resultados incorretos.
 
