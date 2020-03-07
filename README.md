@@ -46,5 +46,6 @@ A classe SimplexRevisado contem o algoritmo simplex e efetua sua execução. Ini
 *	w: Boolean auxiliar utilizado para indicar o fim da execução. 
 
 A classe também contem quatro métodos. O método run( ) é chamado para iniciar a execução do algoritmo, o método escolhaEntrada( ) compara os valores de C〖bB〗^(-1) A^i-C^i para escolher a variável que entra na base, o método escolhaSaida( ) compara os valores de b ÷ y  para escolher a variável que sai da base e o método trocaBase( ) utiliza as informações coletadas em escolhaSaida( ) e escolhaEntrada( ) para atualizar os valores de Base, b, CbB e CbBb.
+
 Quando valEntra for positivo ou valSai for negativo, uma serie de testes no método run irá parar a execução e chamar um objeto da classe Escritor. A classe Escritor contem os métodos utilizados para gravar a resposta (ou ausência desta) no arquivo de texto.
 
